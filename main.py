@@ -42,6 +42,11 @@ print(bot.get_me())
  def handle_text(message):
 
      answer = "неизвестная команда"
+                                                               
+   #проверить!  
+             # message.lower()  превраить слово в нижний регистр, чтобы избегать многочисленных проверок                                                        
+                                                             
+                                                       
      if message.text == "test":
          answer = "вроде работает"
          log(message,answer)
