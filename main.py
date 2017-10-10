@@ -59,6 +59,10 @@ print(bot.get_me())
     else:
         bot.send_message(message.chat.id, answer)
          log(message,answer)
-
+                                                               
+   # для напомналки о ДР                                                            
+"""from datetime import datetime
+deadline = datetime.strptime("22/05/2017", "%d/%m/%Y")
+print(deadline)     # 2017-05-22 00:00:00 """
 
  bot.polling(none_stop=True, interval=0)
