@@ -8,7 +8,7 @@
 
  import telebot
 import const
-
+import list
  bot = telebot.TeleBot(const.token)
 
 bot.send_message(const.my_id, "test")
