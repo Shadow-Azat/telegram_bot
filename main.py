@@ -6,7 +6,7 @@
  
  """
 
- import telebot
+import telebot
 import const
 import list
  bot = telebot.TeleBot(const.token)
@@ -47,18 +47,65 @@ print(bot.get_me())
              # message.lower()  превраить слово в нижний регистр, чтобы избегать многочисленных проверок                                                        
                                                              
                                                        
-     if message.text == "test":
-         answer = "вроде работает"
+     if message.text == list.lst[0]: # "помощь"
+         answer = "тут будет заполнена инфа по командам бота"
          log(message,answer)
          bot.send_message(message.chat.id, answer)
                                                                
-     elif message.text == "привет" or message.text == "Привет":
+     elif message.text == list.lst[1]: #"привет"
          answer = "привет, "
          log(message, answer)
          bot.send_message(message.chat.id, answer + message.from_user.first_name)
-    else:
-        bot.send_message(message.chat.id, answer)
-         log(message,answer)
+                                                               
+      elif message.text == list.lst[2]: # "хэй, баррель"
+         answer = "Хэй, " 
+         log(message, answer)
+         bot.send_message(message.chat.id, answer + message.from_user.first_name+ "!")       
+                                                               
+      elif message.text == list.lst[3]: # "расписание"
+         answer = "тут будет инфа по расписанию тренировок "
+         log(message, answer)
+         bot.send_message(message.chat.id, answer)                                                       
+      
+       elif message.text == list.lst[4]: # "кричалка" 
+         answer = "тут будут слова кричалки"
+         log(message, answer)
+         bot.send_message(message.chat.id, answer)
+                                                               
+       elif message.text == list.lst[5]: #  "музыка"
+         answer = "тут будет музыка для выступлений"
+         log(message, answer)
+         bot.send_message(message.chat.id, answer)                                                         
+       
+        elif message.text == list.lst[6]: # "новости"
+         answer = "тут будет полезная инфа по разным предстоящим событиям"
+         log(message, answer)
+         bot.send_message(message.chat.id, answer)
+       
+         elif message.text == list.lst[7]: # "батуты"
+         answer = "тут будет инфа про батуты"
+         log(message, answer)
+         bot.send_message(message.chat.id, answer)     
+                                                               
+         elif message.text == list.lst[7]: # "правила"  
+         answer = "тут будет инфа про черлидинг в целом"
+         log(message, answer)
+         bot.send_message(message.chat.id, answer + message.from_user.first_name)    
+                                                               
+#    else:
+#        bot.send_message(message.chat.id, answer)
+#         log(message,answer)
+                                                               
+                                                             
+       
+       
+      
+       
+       
+      
+       
+       
+       
                                                                
    # для напомналки о ДР                                                            
 """from datetime import datetime
