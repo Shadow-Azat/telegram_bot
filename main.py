@@ -87,10 +87,10 @@ print(bot.get_me())
          log(message, answer)
          bot.send_message(message.chat.id, answer)     
                                                                
-         elif message.text == list.lst[7]: # "правила"  
+         elif message.text == list.lst[8]: # "правила"  
          answer = "тут будет инфа про черлидинг в целом"
          log(message, answer)
-         bot.send_message(message.chat.id, answer + message.from_user.first_name)    
+         bot.send_message(message.chat.id, answer)    
                                                                
 #    else:
 #        bot.send_message(message.chat.id, answer)
