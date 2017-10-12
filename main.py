@@ -40,7 +40,13 @@ def log(message, answer):
 @bot.message_handler(commands = ['help'])
 def handle_text(message):
         bot.send_message(message.chat.id, """вроде все работает""")
+        
+""" добавить команды :
+Состав
+Дни Рождения
+Телефонная книга """
 
+        
 @bot.message_handler(content_types = ['text'])
 def handle_text(message):
 
