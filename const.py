@@ -1,3 +1,7 @@
 token = "296701087:AAGeT3v4xufoP9qW2W1vX884HEomo7AWKpw"
 my_id = 163794402
-id_list = [123, 223]
+foto = ["AgADAgADX6kxGw28EUudzWzoBaLBxFoTSw0ABEe-62r9OViXprsQAAEC",
+        "AgADAgADYKkxGw28EUvqNJ0RsZJFkE4USw0ABBqisQbL0jEcm9MQAAEC"
+        ]
+
+
