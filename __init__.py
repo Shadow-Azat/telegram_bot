@@ -6,6 +6,8 @@ import time
 import re
 import sys
 import six
+import main
+import list
 
 import logging
 
