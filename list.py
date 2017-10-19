@@ -1,9 +1,13 @@
+
+
 token = "296701087:AAGeT3v4xufoP9qW2W1vX884HEomo7AWKpw"
 my_id = 163794402
+chat_id = -179404215
+bdtext = "⭐️ \nКоманда Баррель поздравляет тебя с этим прекрасным днем и желает всегда быть в отличном настроении и спортивных достижений!"
+
 
 pict = [
 "AgADAgAD-acxGyRQIEuaJGxN84IUCHUTSw0ABGpknex8LA-IL7wQAAEC" #1 батуты
-
 ]
 
 lst = ['меню',
@@ -17,61 +21,63 @@ lst = ['меню',
        'черлидинг как спорт',
        'тренеры']
 
+names = [
+'Аделя Давыдова',	        #0
+'Азат Нагимов',	            #1
+'Аида Рамазанова',	        #2
+'Айдар Фасхутдинов',	    #3
+'Алексей Александров',  	#4
+'Алексей Пранничук',	    #5
+'Алена Обыденная',	        #6
+'Анастасия Рукс',	        #7
+'Анастасия Таранова',	    #8
+'Андрей Обыденный',     	#9
+'Артем Назаров',	        #10
+'Артур Мартыневский',	    #11
+'Вадим Поданев',	        #12
+'Валерия Бодрягина',    	#13
+'Валерия Легчило',	        #14
+'Вероника Булгакова',	    #15
+'Виталий Щербаченко',   	#16
+'Владимир Деордице',	    #17
+'Владислав Малявин',	    #18
+'Галина Гикаева',	        #19
+'Георгий Пушкарев',     	#20
+'Георгий Сыртцев',      	#21
+'Даниил Асфандияров',	    #22
+'Даниил Красов',	        #23
+'Дмитрий Брянцев',	        #24
+'Дмитрий Деордице',	        #25
+'Евгения Загуменникова',	#26
+'Екатерина Хрулева',	    #27
+'Иван Левкин',	            #28
+'Иван Недоруба',        	#29
+'Иван Савкин',	            #30
+'Илья Сахновский',      	#31
+'Илья Филипов',	            #32
+'Константин Кудрик',	    #33
+'Кристина Бодрягина',   	#34
+'Лилит Оганнисян',	        #35
+'Магомед Мержоев',      	#36
+'Максим Клочай',	        #37
+'Марат Кабиров',	        #38
+'Наташа Андрусенко',	    #39
+'Наташа Архиреева',	        #40
+'Николай Курочка',	        #41
+'Павел Шатунов',	        #42
+'Полина Быкова',	        #43
+'Полина Смирнова',	        #44
+'Рашид Насыров',	        #45
+'Сергей Богатырев',     	#46
+'Сергей Килюк',	            #47
+'Сергей Попов',	            #48
+'Татьяна Маринина',	        #49
+'Эгон Розенфельдс',     	#50
+'Эльвин Геюшов',	        #51
+'Юлия Качкина',	            #52
+'Яна Коваленко'	            #53
+]
 
-names = ['Аделя Давыдова',
-         'Азат Нагимов',
-         'Аида Рамазанова',
-         'Айдар Фасхутдинов',
-         'Алексей Александров',
-         'Алексей Пранничук',
-         'Алена Обыденная',
-         'Анастасия Рукс',
-         'Анастасия Таранова',
-         'Андрей Обыденный',
-         'Артем Назаров',
-         'Артур Мартыневский',
-         'Вадим Поданев',
-         'Валерия Бодрягина',
-         'Валерия Легчило',
-         'Вероника Булгакова',
-         'Виталий Щербаченко',
-         'Владимир Деордице',
-         'Владислав Малявин',
-         'Галина Гикаева',
-         'Георгий Пушкарев',
-         'Георгий Сыртцев',
-         'Даниил Асфандияров',
-         'Даниил Красов',
-         'Дмитрий Брянцев',
-         'Дмитрий Деордице',
-         'Евгения Загуменникова',
-         'Екатерина Хрулева',
-         'Иван Левкин',
-         'Иван Недоруба',
-         'Иван Савкин',
-         'Илья Сахновский',
-         'Илья Филипов',
-         'Константин Кудрик',
-         'Кристина Бодрягина',
-         'Лилит Оганнисян',
-         'Магомед Мержоев',
-         'Максим Клочай',
-         'Марат Кабиров',
-         'Наташа Андрусенко',
-         'Наташа Архиреева',
-         'Николай Курочка',
-         'Павел Шатунов',
-         'Полина Быкова',
-         'Полина Смирнова',
-         'Рашид Насыров',
-         'Сергей Богатырев',
-         'Сергей Килюк',
-         'Сергей Попов',
-         'Татьяна Маринина',
-         'Эгон Розенфельдс',
-         'Эльвин Геюшов',
-         'Юлия Качкина',
-         'Яна Коваленко']
 
 bdays = [
 "6 мая",	        #Аделя Давыдова#,
@@ -172,13 +178,13 @@ tel = [
 "89166262604",      #Марат Кабиров#,
 "89104867606",	    #Наташа Андрусенко#,
 "89168530415",	    #Наташа Архиреева#,
-"",	                #Николай Курочка#,
+"89855615617",	    #Николай Курочка#,
 "89999838837",    	#Павел Шатунов#,
 "89670009933",	    #Полина Быкова#,
 "89099899879",	    #Полина Смирнова#,
 "89253319935",	    #Рашид Насыров#,
 "89851664486",	    #Сергей Богатырев#,
-"",	                #Сергей Килюк#,
+"89690878510",	    #Сергей Килюк#,
 "89645991949",	    #Сергей Попов#,
 "89171677645",	    #Татьяна Маринина#,
 "89251983339",	    #Эгон Розенфельдс#,
@@ -191,22 +197,22 @@ photo = [
 "AgADAgAD6qcxGzgeMUvKU0FK8p71HoPTDw4ABCwpKaaG2jb3cvEBAAEC",	                #Аделя Давыдова#,
 "AgADAgADHqgxGyRQIEuJGRdSFDoqWJjZDw4ABD6-l60x843t_eABAAEC",	                #Азат Нагимов#,
 "AgADAgADaKgxG9QxQEuV6FMCqrFU7n_EDw4ABCO01fhQvXVf7wICAAEC",	                #Аида Рамазанова#,
-"AgADAgADV6kxGw28EUvtgj53bsTDLx_JDw4ABIHB1oFvir-2xNEBAAEC",	   #             #Айдар Фасхутдинов#,
+"AgADAgADMagxG2ssQEtr4jQ2KyaHQKzhDw4ABMs43UelHRe5DQcCAAEC",	                #Айдар Фасхутдинов#,
 "AgADAgADZKgxG85hMEv-XWw0_yggnvvKDw4ABCvTZ45z9RCY0_ABAAEC",	                #Алексей Александров#,
 "AgADAgADMqgxGwQAAThLJubkcTwmR3RUMUsNAAQRbm6Al7iMvKoOEQABAg",	            #Алексей Праннийчук#,
 "AgADAgADaagxG9QxQEvcECmrGJub1EDPDw4ABJIcKSi057Dg8QABAgABAg",	            #Алена Обыденная#,
 "AgADAgAD_KcxG5KRIEtju7fP8rgdPtk8Sw0ABLSAA0D6JNzbVfQQAAEC",	                #Анастасия Рукс#,
 "AgADAgADD6gxG89aIEtORjltui9TLjLTDw4ABcrjyKgeHtnc4wEAAQI",	                #Анастасия Таранова#,
-"AgADAgADV6kxGw28EUvtgj53bsTDLx_JDw4ABIHB1oFvir-2xNEBAAEC",	    #            #Андрей Обыденный#,
+"AgADAgADiKgxG8veQUsjX1IZ4TkVeujMDw4ABKgAAe56fuzxBSwDAgABAg",	            #Андрей Обыденный#,
 "AgADAgADo6gxG1BdGEtoK2h4kxHY3BMWSw0ABDdPB8e3C_PtC-QQAAEC",             	#Артем Назаров#,
 "AgADAgADM6gxGwQAAThLDmX0BfrAlBA4FUsNAAQJETJsH2EaVkEDEQABAg",             	#Артур Мартыневский#,
 "AgADAgADSqgxG4iwiEpXSJecBKv6zN_RDw4ABD22J7wGW9HhQEYBAAEC",	                #Вадим Поданев#,
 "AgADAgADZqgxG4AwOUsmWqFgu-QvJ_PkDw4ABKs0FGFse-eisAYCAAEC",	                #Валерия Бодрягина#,
-"AgADAgADV6kxGw28EUvtgj53bsTDLx_JDw4ABIHB1oFvir-2xNEBAAEC",	    #            #Валерия Легчило#,
+"AgADAgADK6gxG2ssQEuak5N3XKxb0GfVDw4ABKGhfxFB_J5WFgcCAAEC",	                #Валерия Легчило#,
 "AgADAgADLKgxG8C0IEtICPXpHLPcuR_lDw4ABIG6k_HH8vcl_N0BAAEC",	                #Вероника Булгакова#,
 "AgADAgADKqgxGxv2IEuxXvCBQDx2TMEPSw0ABDHmW-05FolpoMkQAAEC",	                #Виталий Щербаченко#,
 "AgADAgAD_acxG9DXQUs8-NfjNdU_AZbKDw4ABAal57TebD2XyAICAAEC",	                #Владимир Деордице#,
-"AgADAgADV6kxGw28EUvtgj53bsTDLx_JDw4ABIHB1oFvir-2xNEBAAEC",	     #           #Владислав Малявин#,
+"AgADAgADLKgxG2ssQEvSbKHrwEj3cPzaDw4ABNdwvzTEL0aj8wcCAAEC",	                #Владислав Малявин#,
 "AgADAgADSKgxG4I0QUtMgunPrV8JKePlDw4ABPb7osCCbN5htAUCAAEC",	                #Галина Гикаева#,
 "AgADAgAD96cxGwQAAUBLUyTnxYrDd8Ny4A8OAARSHV6WpgbTFIMFAgABAg",	            #Георгий Пушкарев#,
 "AgADAgADNKgxG3csKEtE475y8Dne8PDjDw4ABEUhc7WDYIqh7_ABAAEC", 	            #Георгий Сыртцев#,
@@ -227,20 +233,20 @@ photo = [
 "AgADAgADE6gxGwcUIUtu99iriwyxYJ_BDw4ABFEi5MXERxWY7OABAAEC",	                #Магомед Мержоев#,
 "AgADAgADxagxG2yGQUvc17YINtfxAaHYDw4ABdNSf_CTHsg3BQIAAQI",	                #Максим Клочай#,
 "AgADAgAD_qcxGwQAAUBLLQtRhFtAffS4EEsNAARZZkb06tJv5c7mEAABAg",	            #Марат Кабиров#,
-"AgADAgADV6kxGw28EUvtgj53bsTDLx_JDw4ABIHB1oFvir-2xNEBAAEC",	      #          #Наташа Андрусенко#,
+"AgADAgAD0agxGwvUSEvzrqGpictixSTCDw4ABIVNjjAV0JBhUgkCAAEC",	                #Наташа Андрусенко#,
 "AgADAgADRakxG5QVGUsJ8bnp51nlNPjtDw4ABDZFT1iVTiU0EeIBAAEC",	                #Наташа Архиреева#,
 "AgADAgAD_6cxGwQAAUBLTY2N4wybdz_DwA8OAAQUTzylYWbenLcGAgABAg",	            #Николай Курочка#,
 "AgADAgAD_agxGwgfGUtJHXhjGyQWiJXkDw4ABDkOW2GxZVQ7U-UBAAEC",	                #Павел Шатунов#,
 "AgADAgADIKgxG2wfIEsxqqe8tK3UlMcWSw0ABLxFP_4EbAXCtd8QAAEC",	                #Полина Быкова#,
 "AgADAgAEqDEbBAABQEuVfXx_GA6Ad2DUDw4ABCYsuF3S63oV0wECAAEC",	                #Полина Смирнова#,
 "AgADAgADeagxG65EQUtAynDwDcmBeFHtDw4ABKpauRq7i8B5ZgYCAAEC",             	#Рашид Насыров#,
-"AgADAgADV6kxGw28EUvtgj53bsTDLx_JDw4ABIHB1oFvir-2xNEBAAEC",	        #        #Сергей Богатырев#,
+"AgADAgADLqgxG2ssQEuPnErX0gnL6tkWSw0ABBpPEjerpI9o5AwRAAEC",	                #Сергей Богатырев#,
 "AgADAgADEqgxG2ssQEsKiOuJJE8HuUAOSw0ABG3LMpFpoj3fdPwQAAEC",	                #Сергей Килюк#,
-"AgADAgADM6gxG3csKEvTY5rRxtuY1WvaDw4ABMi_pqrXEwGo7PEBAAEC",	                #Сергей Попов#,
+"AgADAgADMqgxG2ssQEvECFuri2ZxwQ_lDw4ABN3HqypzSdAHfQcCAAEC",	                #Сергей Попов#,
 "AgADAgADM6gxG0BqIEs_LPQSBZUXuGsVSw0ABP1pKombddVhGOQQAAEC",	                #Татьяна Маринина#,
-"AgADAgADV6kxGw28EUvtgj53bsTDLx_JDw4ABIHB1oFvir-2xNEBAAEC",	          #      #Эгон Розенфельдс#,
-"AgADAgADV6kxGw28EUvtgj53bsTDLx_JDw4ABIHB1oFvir-2xNEBAAEC",	          #      #Эльвин Геушев#,
-"AgADAgADV6kxGw28EUvtgj53bsTDLx_JDw4ABIHB1oFvir-2xNEBAAEC",	         #       #Юлия Качкина#,
+"AgADAgADL6gxG2ssQEugRAGuTghDAUQ2Sw0ABO4F8GlRj-YULioRAAEC",	                #Эгон Розенфельдс#,
+"AgADAgADpqgxG9QxSEtNSyggWcrxdprnDw4ABCScBVo8YnIqjQUCAAEC",	                #Эльвин Геушев#,
+"AgADAgADMKgxG2ssQEuxBIXz_zMB6ZYQSw0ABKzU1ItVrJwsVfUQAAEC",	                #Юлия Качкина#,
 "AgADAgADQqgxGwHaIUsyHiqmxSmPjFPRDw4ABHrBstagNM61eOUBAAEC"                  #Яна Коваленко#
 ]
 
@@ -284,7 +290,7 @@ ids = [
 0,	#Магомед Мержоев#,
 223362630,	#Максим Клочай#,
 0,	#Марат Кабиров#,
-0,	#Наташа Андрусенко#,
+337559808,	#Наташа Андрусенко#,
 279793574,	#Наташа Архиреева#,
 0,	#Николай Курочка#,
 300299634,	#Павел Шатунов#,
@@ -300,6 +306,7 @@ ids = [
 0,	#Юлия Качкина#,
 423292876,	#Яна Коваленко#
 ]
+
 
 
 
